@@ -78,7 +78,12 @@
     Title="Bears" Icon="bear.png"
     ContentTemplate="{DataTemplate views:Bears}"
     Route="Bears" />
+        
     </FlyoutItem>
-    
-    
+    <MenuItem 
+        Command="{Binding HelpCommand}" 
+        IconImageSource="Help.png" 
+        Text="Help"/>
+
+
 </Shell>
